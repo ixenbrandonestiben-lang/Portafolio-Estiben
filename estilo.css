@@ -1,0 +1,26 @@
+html{
+    background-color: black;
+    color: white;
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+ul{
+    font-family: 'Times New Roman', Times, serif;
+    color: yellowgreen;
+}
+#educacion{
+    color: yellow;
+}   
+.education{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(87, 22, 112);
+}
