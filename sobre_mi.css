@@ -4,3 +4,32 @@ html{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+h2{
+    color: greenyellow;
+}
+p{
+    font-size: 20px;
+    margin: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.uno, .dos, .tres, .cuatro{
+    margin: 0 10px;
+}
+.uno a, .dos a, .tres a, .cuatro a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.uno a:hover, .dos a:hover, .tres a:hover, .cuatro a:hover{
+    color: greenyellow;
+}   
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}  
