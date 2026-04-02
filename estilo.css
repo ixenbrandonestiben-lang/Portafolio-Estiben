@@ -23,18 +23,23 @@ ul{
 .education{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(87, 22, 112);
+    font-style: oblique;
 }
 .sobremi{
     font-family: 'Courier New', Courier, monospace;
     color: rgb(22, 87, 112);
+    font-style: italic;
 }   
 .educacion{
     font-family: 'Lucida Console', 'Courier New', monospace;
     color: rgb(112, 22, 87);
+    font-style: oblique;
 }
 .proyectos{
     font-family: 'Lucida Console', 'Courier New', monospace;
     color: rgb(22, 112, 87);
+    font-size: medium;
+
 }
 .habilidades{
     font-family: 'Lucida Console', 'Courier New', monospace;
@@ -43,3 +48,4 @@ ul{
     width: 50%  ;
     height: auto;
 }
+
