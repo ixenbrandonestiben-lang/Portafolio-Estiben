@@ -30,10 +30,10 @@ html{
    
 
        /* efecto vidrio */
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.151);
     backdrop-filter: blur(10px);
        
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(0, 255, 21, 0.397);
    
        /* sombra */
     box-shadow: 0 8px 32px rgba(0,0,0,0.3);
@@ -125,4 +125,79 @@ p{
 .tres{
     color: rgb(0, 190, 149);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*.echos{
+    font-family: fantasy;
+    font-size: 40px;
+    color: #00ff66;
+    background-color: #111;
+    width: 500px;
+    height: auto;
+    text-align: center;
+    border-radius: 50px;
+
+}*/
+
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h2 {
+    text-align: center;
+    margin: 40px 0 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-self: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #00ff66;
+    width: 300px;
+    border-radius: 30px;
+
+}
+
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 350px); /* 3 cajas en fila */
+    gap: 20px;
+    justify-content: center;
+}
+
+.p {
+    height: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(230, 255, 1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 24px;
+    border-radius: 20px;
+
+    
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(0, 0, 0, 0.61);
+
+    margin-top: 5px;
+
+    transition: all 0.3s ease;
+}
+
+.p {
+    transition: all 0.3s ease;
+    box-shadow: 0 20px 30px -10px rgb(0, 0, 0);
+}
+
+.p:hover {
+    transform: translateY(-12px); /* sube */
+    box-shadow: 0 40px 50px -15px rgba(0, 0, 0, 0.6);
 }

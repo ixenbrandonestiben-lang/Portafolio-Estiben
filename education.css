@@ -119,20 +119,20 @@ li{
 .contenedor {
     display: grid;
 
-    /* 🔥 2 columnas iguales */
+   
     grid-template-columns: repeat(2, 150px);
 
-    /* 🔥 2 filas */
+   
     grid-template-rows: repeat(2, 150px);
 
     gap: 20px;
 
-    /* centrado */
+  
     justify-content: center;
     align-content: center;
 }
 
-/* CAJAS */
+
 .p {
     background: rgba(255, 255, 255, 0.1);
     color: white;
