@@ -1,6 +1,18 @@
-html, body{
-    background-color: black;
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
 }
+.subtitulo{
+    background-color: #0f2027;
+    color: #00ffcc;
+    width: 100px;
+    height: auto;
+    border: #00ff66 double;
+    border-radius: 30px;
+}
+
 .menu{
     display: flex;
     justify-content: center;
@@ -24,13 +36,13 @@ html, body{
 
    
 
-       /* efecto vidrio */
+
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
        
     border: 1px solid rgba(255, 255, 255, 0.2);
    
-       /* sombra */
+
     box-shadow: 0 8px 32px rgba(0,0,0,0.3);
    
     transition: all 0.4s ease;
@@ -80,86 +92,105 @@ html, body{
     background: #ffaa00;
 }
 
-h1{
-    text-align: center;
-    font-size: 50px;
-    color: red;
-    font-style: oblique;
-}
-p{
-    text-align: center;
-    font-size: 30px;
-    color: white;
+
+
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;   
+    align-items: center;       
+
+    min-height: 80vh;
+    gap: 80px;
 }
 
-nav{
+
+.grupo{
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-    margin: 0 auto;
+    align-items: center;
 }
-h1{
-    color: white;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-#tenicas{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    border: #00ffcc 1px solid;
-    width: 200px;
 
 
+.circulo{
+    position: relative;
+    width: 300px;
+    height: 300px;
 }
-#blandas{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    border: #ff00cc 1px solid;
-    width: 200px;
-}
-#personales{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    border: #00ff66 1px solid;
-    width: 200px;
-}
-#natas{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    border: #ffaa00 1px solid;
-    width: 200px;
-}
-.hab-tec li{
-    color: greenyellow;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    border: #00ff66 1px solid;
-    width: 200px;
-}
-.hab-blandas li{
-    color: rgb(0, 225, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    border: #ff00cc 1px solid;
-    width: 200px;
-}
-.hab-personales li{
-    color: rgb(255, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    border: #ffaa00 1px solid;
-    width: 200px;
-}
-.hab-natas li{
-    color: rgb(248, 0, 215);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    border: #00ffcc 1px solid;
-    width: 200px;
-}   
 
+.centro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90px;
+    height: 90px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+
+.burbuja{
+    position: absolute;
+
+    width: 90px;
+    height: 70px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.arriba{
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.abajo{
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.izquierda{
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.derecha{
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.abajo-izq{
+    bottom: 0;
+    left: 50px;
+}
+
+.abajo-der{
+    bottom: 0;
+    right: 50px;
+}
