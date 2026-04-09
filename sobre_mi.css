@@ -97,6 +97,13 @@ p{
 
 h2{
     color: greenyellow;
+    font-size: 40px;
+    background-color: darkblue;
+    border: #ff00cc 3px solid;
+    border-radius: 30px 30px 0 0;
+    width: 300px;
+    margin: 20px auto;
+
 }
 p{
     font-size: 20px;
@@ -124,3 +131,39 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }  
+.perfil{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    backdrop-filter: blur(10px);
+    border: 6px double rgba(255, 255, 255, 0.993);
+    box-shadow: 0 8px 600px rgba(0, 247, 74, 0.3);
+    transition-property: all;
+    transition-duration: 4s;
+}   
+.p{
+    border: 3px sienna rgba(255, 255, 255, 0.993);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+    max-width: 800px;
+    margin: 20px auto;  
+    transition-property: all;
+    transition-duration: 10s;
+    transition-timing-function: ease-in-out;
+
+}
+.p:hover{
+    background: rgba(255, 255, 255, 0.3);
+    color: #111; 
+    box-shadow: 0 8px 20px rgba(8, 228, 236, 0.5);
+}
+
+

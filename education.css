@@ -160,8 +160,9 @@ li{
 }
 
 img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 500px;
+    height: 300px;
+    border-radius: 30%;
     margin-top: 10px;
+    align-items: center;
 }

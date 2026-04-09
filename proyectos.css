@@ -36,7 +36,7 @@ html{
     border: 1px solid rgba(0, 255, 21, 0.397);
    
        /* sombra */
-    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.445);
    
     transition: all 0.4s ease;
     
@@ -156,9 +156,10 @@ h2 {
     display: grid;
     justify-content: center;
     margin-top: 20px;
-    background-color: #00ff66;
+    background-color: #b1920a;
     width: 300px;
     border-radius: 30px;
+    border: #ff0000 double 2px;
 
 }
 
@@ -171,13 +172,15 @@ h2 {
 }
 
 .p {
-    height: 250px;
+    height: 350px;
     background: rgba(255, 255, 255, 0.1);
     color: rgb(230, 255, 1);
+    gap: 10px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     font-size: 24px;
     border-radius: 20px;
@@ -185,19 +188,64 @@ h2 {
     
     backdrop-filter: blur(10px);
 
-    border: 1px solid rgba(0, 0, 0, 0.61);
+    border: 1px solid rgba(24, 83, 70, 0.678);
 
     margin-top: 5px;
 
     transition: all 0.3s ease;
 }
 
-.p {
-    transition: all 0.3s ease;
-    box-shadow: 0 20px 30px -10px rgb(0, 0, 0);
-}
+
 
 .p:hover {
     transform: translateY(-12px); /* sube */
-    box-shadow: 0 40px 50px -15px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 40px 50px -15px rgb(2, 2, 2);
 }
+.link {
+    margin-top: 15px;
+}
+.link a {
+    text-decoration: none;
+    color: #00ff66;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #111;
+    padding: 20px 20px;
+    border-radius: 50px;    
+    border: 1px solid #00ff4c;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+.link a:hover {
+    background-color: #00ff66;
+    color: #111;
+    box-shadow: 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+    transform: matrix3d(1.2, 0, 0, 0, 0, 1.2, 0, 0, 0, 0, 1.2, 0, 0, 0, 0, 1);
+}
+img {
+
+    display: flex;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+.imagenes {
+    width: 1600px;
+    display: flex;
+
+    gap: 50px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.216);
+    border-radius: 30px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    align-items: center;
+
+}   
+.imagenes {
+    transition: transform 0.3s ease;
+  }
+  
+  .imagenes:hover {
+    transform: translateY(-10px) scale(1.02);
+  }

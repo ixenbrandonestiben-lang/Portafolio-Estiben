@@ -108,40 +108,58 @@ h1{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    border: #00ffcc 1px solid;
+    width: 200px;
+
+
 }
 #blandas{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    border: #ff00cc 1px solid;
+    width: 200px;
 }
 #personales{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    border: #00ff66 1px solid;
+    width: 200px;
 }
 #natas{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    border: #ffaa00 1px solid;
+    width: 200px;
 }
 .hab-tec li{
     color: greenyellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    border: #00ff66 1px solid;
+    width: 200px;
 }
 .hab-blandas li{
     color: rgb(0, 225, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    border: #ff00cc 1px solid;
+    width: 200px;
 }
 .hab-personales li{
     color: rgb(255, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    border: #ffaa00 1px solid;
+    width: 200px;
 }
 .hab-natas li{
     color: rgb(248, 0, 215);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    border: #00ffcc 1px solid;
+    width: 200px;
 }   
 
