@@ -111,6 +111,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff10;
+    border-radius: 40%;
+    width: 400px;
+    height: 400px;
 }
 
 
@@ -132,7 +136,7 @@ body{
     border-radius: 50%;
 
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 
     background: rgba(255,255,255,0.2);
@@ -153,7 +157,7 @@ body{
     justify-content: center;
     align-items: center;
 
-    background: rgba(255,255,255,0.1);
+    background: rgba(0, 255, 179, 0.229);
     backdrop-filter: blur(10px);
     color: white;
     font-size: 12px;
