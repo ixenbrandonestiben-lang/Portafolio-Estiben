@@ -1,78 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/education.css">
-</head>
-<body>
-    <nav class="menu">
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educación | Brandon Estiben</title>
+    <meta
+      name="description"
+      content="Formación técnica en programación, mecánica automotriz, enderezado, pintura y motocicletas."
+    />
+    <link rel="stylesheet" href="../css/education.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="logo">BE</div>
+      <nav class="menu" aria-label="Navegación principal">
+        <a href="index.html" class="item">Inicio</a>
+        <a href="sobre_mi.html" class="item">Sobre mí</a>
+        <a href="educacion.html" class="item active">Educación</a>
+        <a href="proyectos.html" class="item">Proyectos</a>
+        <a href="habilidades.html" class="item">Habilidades</a>
+      </nav>
+    </header>
 
-        <a href=".sobre_mi.html" class="item">Sobre mí</a>
-        <a href=".index.html" class="item">inicio</a>
-        <a href=".proyectos.html" class="item">Proyectos</a>
-        <a href=".habilidades.html" class="item">Habilidades</a>
-        
-    </nav>
-    <h1>educacion</h1>
-    <div class="container">
-        <ul>
+    <main class="education-page">
+      <section class="hero">
+        <div class="hero__text">
+          <p class="eyebrow">Formación · técnica · disciplina</p>
+          <h1>Mi formación combina conocimiento práctico, técnica y visión de futuro.</h1>
+          <p class="lead">
+            Mi camino se ha desarrollado en dos áreas que, aunque distintas, comparten la misma esencia:
+            diagnóstico, precisión, lógica y resolución de problemas. La mecánica me enseñó a entender cómo
+            funcionan las cosas, y la programación me desafía a convertir ideas en soluciones digitales.
+          </p>
+        </div>
 
-            <div class="p">
-                <li>
-                    <h3>programacion</h3>
-                    <img src="img/progra.jpg">
-                    <ul>
-                       <div id="python"><li>python</li></div> 
-                        <li>html5</li>
-                        <li>css</li>
-                        <li>entre otros</li>
-                    </ul>
-                </li>
-            </div>
-            <div class="p">
-                <li>
-                    <h3 id="mecanica automotriz">mecanica automotriz.</h3>
-                    <img src="img/meca.jpg" alt="">
-                    <ul>
-                        <li>mantenimiento preventivo.</li>
-                        <li>mantenimiento correctivo.</li>
-                        <li>mantenimiento preventivo.</li>
-                        <li>reparacion de sistema de frenos</li>
-                        <li>sistema de suspension</li>
-                        <li>sistema electrico</li>
-                        <li>administracion de flotas atomotrices</li>
-                    </ul>
-                
-                </li>
-            </div>
-            <div class="p">
-                <li>
-                    <h3 id="enderezado y pintura">enderezado y pintura</h3>
-                    <img src="img/pintura.jpg" alt="">
-                    <ul>
-                       <li>reparacion de estructura de la carroseria</li>
-                       <li>preparado de superficies con alta calidad</li>
-                       <li>aplicacion de pintura de alta calidad</li>
-                       <li>pilido de alta calidad</li>
-                    </ul> 
-                    
-                </li>
-            </div>
-            <div class= "p">
-                <li>
-                    <h3 id="mecanica de motocicletas">mecanica de motocicleta</h3>
-                    <img src="img/moto.jpg" alt="">
-                    <ul>
-                        <li>mantenimiento basico de la motocicleta</li>
-                        <li>sistema electrico</li>
-                    </ul>
-                    
-                </li>
-            </div>
+        <div class="hero__panel">
+          <span class="chip">Foco</span>
+          <h2>Programación + mecánica</h2>
+          <p>
+            La programación es la evolución de mi forma de pensar: analítica, ordenada y enfocada en la solución.
+          </p>
+        </div>
+      </section>
 
-        </ul>
-</div>
-</body>
+      <section class="education-grid">
+        <article class="edu-card">
+          <div class="card-header">
+            <h3>Programación</h3>
+            <span>Fundamentos</span>
+          </div>
+          <img src="../img/progra.jpg" alt="Programación" />
+          <ul>
+            <li>Python</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript básico</li>
+            <li>MySQL básico</li>
+          </ul>
+        </article>
+
+        <article class="edu-card">
+          <div class="card-header">
+            <h3>Mecánica automotriz</h3>
+            <span>Vehículos</span>
+          </div>
+          <img src="../img/meca.jpg" alt="Mecánica automotriz" />
+          <ul>
+            <li>Mantenimiento preventivo</li>
+            <li>Mantenimiento correctivo</li>
+            <li>Sistema de frenos</li>
+            <li>Suspensión</li>
+            <li>Sistema eléctrico</li>
+            <li>Administración de flotas</li>
+          </ul>
+        </article>
+
+        <article class="edu-card">
+          <div class="card-header">
+            <h3>Enderezado y pintura</h3>
+            <span>Carrocería</span>
+          </div>
+          <img src="../img/pintura.jpg" alt="Enderezado y pintura" />
+          <ul>
+            <li>Reparación de estructura</li>
+            <li>Preparado de superficies</li>
+            <li>Pintura de calidad</li>
+            <li>Pulido y acabado final</li>
+          </ul>
+        </article>
+
+        <article class="edu-card">
+          <div class="card-header">
+            <h3>Mecánica de motocicletas</h3>
+            <span>Motocicletas</span>
+          </div>
+          <img src="../img/moto.jpg" alt="Mecánica de motocicletas" />
+          <ul>
+            <li>Mantenimiento básico</li>
+            <li>Sistema eléctrico</li>
+            <li>Diagnóstico de fallas</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Brandon Estiben Ixén Teleguario</p>
+    </footer>
+  </body>
 </html>
