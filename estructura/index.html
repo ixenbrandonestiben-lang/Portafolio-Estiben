@@ -1,36 +1,167 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-    <h1>Brandon Estiben Ixén Teleguario</h1>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brandon Estiben | Portafolio</title>
+    <meta
+      name="description"
+      content="Portafolio personal de Brandon Estiben Ixén Teleguario, enfocado en la mecánica automotriz, la tecnología y el aprendizaje continuo."
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="logo">BE</div>
+      <nav class="menu" aria-label="Navegación principal">
+        <a href="index.html" class="item active">Inicio</a>
+        <a href="sobre_mi.html" class="item">Sobre mí</a>
+        <a href="educacion.html" class="item">Educación</a>
+        <a href="proyectos.html" class="item">Proyectos</a>
+        <a href="habilidades.html" class="item">Habilidades</a>
+      </nav>
+    </header>
 
-    <p class="texto">Bienvenido, aqui encontrarás maravillas sobre mi, profesionalmente.</p>
+    <main>
+      <section class="hero">
+        <div class="hero__text">
+          <p class="eyebrow">Mecánica · Tecnología · Pasión</p>
+          <h1>Brandon Estiben Ixén Teleguario</h1>
+          <p class="texto">
+            No soy un desarrollador común. Me apasiona la mecánica, entender cómo funciona cada
+            sistema, diagnosticar fallas y transformar problemas en soluciones reales. Cada pieza,
+            cada movimiento y cada detalle me hace sentir que estoy construyendo algo con sentido.
+          </p>
 
-    <nav class="menu">
-     <a href=".sobre_mi.html" class="item">Sobre mí</a>
-   <a href=".educacion.html" class="item">Educación</a>
-    <a href=".proyectos.html" class="item">Proyectos</a>
-    <a href=".habilidades.html" class="item">Habilidades</a>
-    </nav>
+          <div class="hero__actions">
+            <a href="#sobre-mi" class="btn btn--primary">Conóceme</a>
+            <a href="proyectos.html" class="btn btn--secondary">Ver proyectos</a>
+          </div>
 
+          <div class="hero__stats">
+            <div>
+              <strong>+3</strong>
+              <span>Áreas de interés</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Pasión por la mecánica</span>
+            </div>
+            <div>
+              <strong>Siempre</strong>
+              <span>Aprendiendo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-label="Ilustración de perfil y pasión">
+          <div class="card card--main">
+            <span class="chip">Especialidad</span>
+            <h2>Mecánica automotriz</h2>
+            <p>Diagnóstico, mantenimiento, reparación y mejora de rendimiento.</p>
+          </div>
+          <div class="card card--floating">
+            <span>Enfoque</span>
+            <strong>Soluciones prácticas</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="about">
+        <div class="section-heading">
+          <p class="eyebrow">Sobre mí</p>
+          <h2>Más que una persona con conocimientos, soy alguien con visión técnica.</h2>
+        </div>
+
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Me considero una persona proactiva, responsable y con una gran curiosidad por el
+              funcionamiento real de las cosas. Desde muy joven he sentido una conexión especial con
+              la industria automotriz, porque no solo veo un vehículo, sino un conjunto de sistemas
+              que trabajan en armonía y que requieren lógica, paciencia y precisión para mantenerlos
+              en buen estado.
+            </p>
+            <p>
+              Lo que más me motiva no es solo arreglar un problema, sino entender la causa raíz,
+              analizar el funcionamiento y aplicar soluciones con criterio. Esa mentalidad me ha llevado
+              a interesarme también por la tecnología, la programación y el desarrollo de herramientas
+              que puedan apoyar procesos y mejorar la eficiencia en distintos ámbitos.
+            </p>
+          </div>
+
+          <div class="about__list">
+            <ul>
+              <li>Diagnóstico técnico</li>
+              <li>Mantenimiento preventivo y correctivo</li>
+              <li>Trabajo en equipo</li>
+              <li>Aprendizaje constante</li>
+              <li>Actitud responsable y proactiva</li>
+              <li>Pasión por la mejora continua</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="passion">
+        <div class="section-heading center">
+          <p class="eyebrow">Lo que me apasiona</p>
+          <h2>La mecánica no es solo trabajo, es una forma de pensar.</h2>
+        </div>
+
+        <div class="passion__grid">
+          <article class="feature-card">
+            <h3>Diagnóstico</h3>
+            <p>Me gusta encontrar la causa real de un problema y no quedarme en la solución superficial.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Precisión</h3>
+            <p>En mecánica cada detalle cuenta; la calidad y la atención al trabajo hacen la diferencia.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Solución</h3>
+            <p>Cuando una máquina falla, yo pienso en cómo devolverle su funcionamiento con lógica y habilidad.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Aprendizaje</h3>
+            <p>Cada vehículo y cada sistema me enseña algo nuevo, y eso me impulsa a seguir creciendo.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="values">
+        <div class="section-heading center">
+          <p class="eyebrow">Mi forma de trabajar</p>
+          <h2>Actitud, disciplina y compromiso.</h2>
+        </div>
+
+        <div class="values__wrapper">
+          <div class="value-item">
+            <span>01</span>
+            <h3>Responsabilidad</h3>
+            <p>Cada trabajo requiere compromiso, orden y respeto por el proceso.</p>
+          </div>
+          <div class="value-item">
+            <span>02</span>
+            <h3>Creatividad</h3>
+            <p>Busco soluciones útiles, prácticas y adaptadas a cada situación.</p>
+          </div>
+          <div class="value-item">
+            <span>03</span>
+            <h3>Trabajo en equipo</h3>
+            <p>Aprendo de los demás, comparto ideas y siempre busco el mejor resultado colectivo.</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer class="fcontacto">
-        <h3 id=" contacto">contacto</h3>
-        <ul>
-            
-            correo:
-            <li id="correo">ixenbrandonestiben@gmail.com</li>
-            telefono:
-            <li id="telefono">+502 4647-8706</li>
-            direccion:      
-            <li id="direccion">villa de los niños, zona 6, ciudad de guatemala.</li>
-    
-        </ul>
+      <h3>Contacto</h3>
+      <ul>
+        <li><strong>Correo:</strong> ixenbrandonestiben@gmail.com</li>
+        <li><strong>Teléfono:</strong> +502 4647-8706</li>
+        <li><strong>Dirección:</strong> Villa de los Niños, zona 6, Ciudad de Guatemala</li>
+      </ul>
     </footer>
-</body >
+  </body>
 </html>
