@@ -1,68 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/proyectos.css">
-</head>
-<body>
-  
-    <nav class="menu">
-         <a href=".sobre_mi.html" class="item">Sobre mí</a>
-         <a href=".educacion.html" class="item">Educación</a>
-         <a href=".index.html" class="item">Inicio</a>
-         <a href=".habilidades.html" class="item">Habilidades</a>
-        
-    </nav>
-    <h1>Proyectos</h1>
-    <h2 class="echos">proyectos ya culminados</h2>
-    <div class="contenedor"> 
-       
-        <div class="p">
-            <p>Desarrollo de una aplicación de consola para gestionar la organizacion de un gimnasio usando Python.</p>
-           
-            <div class="link">
-                <a href="https://github.com/ixenbrandonestiben-lang/proyecto_aplicando_marco_de_trabajo_SCRUM.">miralo aqui</a>
-            </div>
-            
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyectos | Brandon Estiben</title>
+    <meta
+      name="description"
+      content="Proyectos desarrollados con enfoque en programación, automatización, lógica y soluciones prácticas."
+    />
+    <link rel="stylesheet" href="../css/proyectos.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="logo">BE</div>
+      <nav class="menu" aria-label="Navegación principal">
+        <a href="index.html" class="item">Inicio</a>
+        <a href="sobre_mi.html" class="item">Sobre mí</a>
+        <a href="educacion.html" class="item">Educación</a>
+        <a href="proyectos.html" class="item active">Proyectos</a>
+        <a href="habilidades.html" class="item">Habilidades</a>
+      </nav>
+    </header>
+
+    <main class="projects-page">
+      <section class="hero">
+        <div class="hero__text">
+          <p class="eyebrow">Programación · lógica · soluciones</p>
+          <h1>Proyectos que reflejan mi crecimiento como desarrollador.</h1>
+          <p class="lead">
+            Cada proyecto que desarrollo representa una forma distinta de aplicar la lógica, la disciplina
+            y la creatividad. Mi objetivo siempre es combinar la precisión técnica con soluciones reales,
+            especialmente en el entorno de la programación y la automatización.
+          </p>
         </div>
-        <div class="p">
-            <p>creacion de un sistema de gestión de inventario para mejorar la eficiencia.</p>
-           
-            <div class="link">
-                <a href="https://github.com/ixenbrandonestiben-lang/proyecto1brandonEstibenixen">miralo aqui</a>
-            </div>
+
+        <div class="hero__panel">
+          <span class="chip">Enfoque</span>
+          <h2>Programación con visión técnica</h2>
+          <p>
+            Mi base en mecánica me enseñó a diagnosticar, analizar y corregir problemas con paciencia.
+            Hoy aplico esa misma lógica en cada proyecto digital que construyo.
+          </p>
         </div>
-        <div class="p">
-            <p>Creación de una aplicacon de consola para mejorar la gestion de una biblioteca.</p>
-            
-            <div class="link">
-                <a href="https://github.com/ixenbrandonestiben-lang/proyecto-python-brandon">miralo aqui</a>
-            </div>
+      </section>
+
+      <section class="projects-section">
+        <div class="section-heading">
+          <p class="eyebrow">Proyectos</p>
+          <h2>Soluciones que muestran mi capacidad técnica.</h2>
         </div>
-    </div>
-    <h2 class="en-mente">proyectos en mente</h2>
-    <div class="contenedor">
-       
-        <div class="p">
-            <p>crear mi propia app para dar clases en linea y no utilizar youtube o zoom</p>
-        
+
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="tag">Python</span>
+            <h3>Sistema de gestión de gimnasio</h3>
+            <p>
+              Desarrollo de una aplicación de consola para organizar usuarios, rutinas, pagos y control del
+              funcionamiento del gimnasio con lógica de flujo y estructura clara.
+            </p>
+            <a href="https://github.com/ixenbrandonestiben-lang/proyecto_aplicando_marco_de_trabajo_SCRUM" target="_blank" rel="noreferrer">Ver proyecto</a>
+          </article>
+
+          <article class="project-card">
+            <span class="tag">Inventario</span>
+            <h3>Control de inventario</h3>
+            <p>
+              Sistema diseñado para mejorar la organización, seguimiento y gestión de productos, reforzando
+              la eficiencia en procesos administrativos y operativos.
+            </p>
+            <a href="https://github.com/ixenbrandonestiben-lang/proyecto1brandonEstibenixen" target="_blank" rel="noreferrer">Ver proyecto</a>
+          </article>
+
+          <article class="project-card">
+            <span class="tag">Biblioteca</span>
+            <h3>Gestión de biblioteca</h3>
+            <p>
+              Aplicación de consola enfocada en la administración de libros, usuarios y registros, mostrando
+              la capacidad para modelar soluciones prácticas con programación.
+            </p>
+            <a href="https://github.com/ixenbrandonestiben-lang/proyecto-python-brandon" target="_blank" rel="noreferrer">Ver proyecto</a>
+          </article>
         </div>
-     
-    </div>
-    <h2>imagenes</h2>
-    <div class="imagenes">
-        <div>
-            <img src="img/gimnasio.png" alt="">
+      </section>
+
+      <section class="future-section">
+        <div class="section-heading">
+          <p class="eyebrow">En desarrollo</p>
+          <h2>Ideas que quiero convertir en soluciones reales.</h2>
         </div>
-        <div>
-            <img src="img/inventario.png" alt="">
+
+        <div class="future-grid">
+          <article class="future-card">
+            <h3>Plataforma de clases en línea</h3>
+            <p>
+              Crear una aplicación propia para impartir clases de forma más organizada y profesional,
+              sin depender de herramientas externas para cada etapa del proceso.
+            </p>
+          </article>
+
+          <article class="future-card">
+            <h3>Herramienta de productividad</h3>
+            <p>
+              Diseñar una solución digital orientada a mejorar la organización, procesos y experiencia del
+              usuario mediante programación aplicada a necesidades reales.
+            </p>
+          </article>
         </div>
-        <div>
-            <img src="img/biblioteca.png" alt="">
+      </section>
+
+      <section class="gallery-section">
+        <div class="section-heading center">
+          <p class="eyebrow">Portfolio visual</p>
+          <h2>Ejemplos de mi trabajo y evolución.</h2>
         </div>
-    </div>
-    
-</body>
+
+        <div class="gallery-grid">
+          <div class="gallery-card gallery-card--one">
+            <span>Gestión</span>
+            <strong>Gimnasio</strong>
+          </div>
+          <div class="gallery-card gallery-card--two">
+            <span>Automatización</span>
+            <strong>Inventario</strong>
+          </div>
+          <div class="gallery-card gallery-card--three">
+            <span>Programación</span>
+            <strong>Biblioteca</strong>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Brandon Estiben Ixén Teleguario</p>
+    </footer>
+  </body>
 </html>
