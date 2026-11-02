@@ -1,0 +1,106 @@
+/* ===== Botones de control (tema / idioma) ===== */
+.controles {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-control {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.btn-control:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, rgba(94, 234, 212, 0.2), rgba(244, 185, 66, 0.2));
+  box-shadow: 0 10px 25px rgba(94, 234, 212, 0.18);
+}
+
+.btn-control:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 3px;
+}
+
+/* ===== Tema claro ===== */
+html[data-theme="light"] {
+  --bg: #f4f7fb;
+  --bg-soft: #e6edf7;
+  --panel: rgba(255, 255, 255, 0.85);
+  --primary: #c98a0a;
+  --secondary: #0f9d8a;
+  --text: #14202f;
+  --muted: #44546a;
+  --border: rgba(10, 25, 47, 0.12);
+  --shadow: 0 20px 45px rgba(20, 40, 70, 0.12);
+}
+
+html[data-theme="light"] body {
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(rgba(10, 25, 47, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(10, 25, 47, 0.05) 1px, transparent 1px),
+    radial-gradient(circle at top, rgba(15, 157, 138, 0.14), transparent 30%),
+    linear-gradient(135deg, #f8fbff 0%, #eef3fa 50%, #e3ebf6 100%);
+  background-size: 38px 38px, 38px 38px, auto, auto;
+}
+
+html[data-theme="light"] .topbar {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+html[data-theme="light"] .item,
+html[data-theme="light"] .btn-control {
+  background: rgba(10, 25, 47, 0.04);
+}
+
+html[data-theme="light"] .hero h1,
+html[data-theme="light"] .hero__text h1,
+html[data-theme="light"] .feature-card h3 {
+  color: #0b1626;
+}
+
+html[data-theme="light"] .hero__panel,
+html[data-theme="light"] .profile-card,
+html[data-theme="light"] .card {
+  background: linear-gradient(180deg, #ffffff, #eef3fa);
+}
+
+html[data-theme="light"] .skill-card,
+html[data-theme="light"] .edu-card,
+html[data-theme="light"] .project-card,
+html[data-theme="light"] .future-card,
+html[data-theme="light"] .story__panel,
+html[data-theme="light"] .feature-card,
+html[data-theme="light"] .value-item,
+html[data-theme="light"] .about__content,
+html[data-theme="light"] .hero__stats div {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+html[data-theme="light"] .fcontacto {
+  background: rgba(255, 255, 255, 0.88);
+}
+
+html[data-theme="light"] .bar {
+  background: rgba(10, 25, 47, 0.08);
+  border-color: rgba(10, 25, 47, 0.1);
+}
+
+/* Las tarjetas de la galería siguen con overlay oscuro: el texto debe seguir claro */
+html[data-theme="light"] .gallery-card strong {
+  color: #f9fbff;
+}
+
+html[data-theme="light"] .gallery-card span {
+  color: #5eead4;
+}
