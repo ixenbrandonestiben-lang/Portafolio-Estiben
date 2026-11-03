@@ -107,3 +107,12 @@ main {
   gap: 40px;
   padding: 70px 0 50px;
 }
+
+.eyebrow {
+  margin: 0 0 18px;
+  color: var(--secondary);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
