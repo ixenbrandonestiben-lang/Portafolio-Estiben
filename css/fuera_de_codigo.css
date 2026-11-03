@@ -57,3 +57,16 @@ main {
   backdrop-filter: blur(12px);
   box-shadow: var(--shadow);
 }
+
+.logo {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--secondary), var(--primary));
+  color: #06111a;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
