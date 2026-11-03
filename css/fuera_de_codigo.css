@@ -17,3 +17,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background:
+    radial-gradient(circle at top, rgba(94, 234, 212, 0.12), transparent 30%),
+    linear-gradient(135deg, #020912 0%, #07111f 35%, #0b1728 100%);
+  color: var(--text);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
