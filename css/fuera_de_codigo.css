@@ -1,0 +1,19 @@
+:root {
+  --bg: #07111f;
+  --bg-soft: #0d1b2d;
+  --panel: rgba(15, 24, 38, 0.8);
+  --primary: #f4b942;
+  --secondary: #5eead4;
+  --text: #e6edf7;
+  --muted: #b9c6d9;
+  --border: rgba(255, 255, 255, 0.08);
+  --shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
