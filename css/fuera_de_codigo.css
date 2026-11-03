@@ -91,3 +91,10 @@ main {
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
   animation: flotar 3s ease-in-out infinite;
 }
+
+.item:hover,
+.item.active {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, rgba(94, 234, 212, 0.2), rgba(244, 185, 66, 0.2));
+  box-shadow: 0 10px 25px rgba(94, 234, 212, 0.18);
+}
