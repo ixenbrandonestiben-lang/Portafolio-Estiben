@@ -98,3 +98,12 @@ main {
   background: linear-gradient(135deg, rgba(94, 234, 212, 0.2), rgba(244, 185, 66, 0.2));
   box-shadow: 0 10px 25px rgba(94, 234, 212, 0.18);
 }
+
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  align-items: center;
+  gap: 40px;
+  padding: 70px 0 50px;
+}
