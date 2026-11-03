@@ -41,3 +41,19 @@ main {
   width: min(1200px, calc(100% - 32px));
   margin: 0 auto;
 }
+
+
+.topbar {
+  width: min(1200px, calc(100% - 32px));
+  margin: 30px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 24px;
+  background: rgba(9, 16, 26, 0.7);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+  box-shadow: var(--shadow);
+}
