@@ -32,3 +32,12 @@ img {
   max-width: 100%;
   display: block;
 }
+
+a {
+  text-decoration: none;
+}
+
+main {
+  width: min(1200px, calc(100% - 32px));
+  margin: 0 auto;
+}
