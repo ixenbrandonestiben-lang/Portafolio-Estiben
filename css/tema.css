@@ -91,6 +91,16 @@ html[data-theme="light"] .fcontacto {
   background: rgba(255, 255, 255, 0.88);
 }
 
+html[data-theme="light"] .contact-panel {
+  background: rgba(255, 255, 255, 0.82);
+}
+
+html[data-theme="light"] .contact-link,
+html[data-theme="light"] .contact-form input,
+html[data-theme="light"] .contact-form textarea {
+  background: rgba(10, 25, 47, 0.04);
+}
+
 html[data-theme="light"] .bar {
   background: rgba(10, 25, 47, 0.08);
   border-color: rgba(10, 25, 47, 0.1);
