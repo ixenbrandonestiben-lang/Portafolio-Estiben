@@ -40,8 +40,8 @@
       }
     }
 
-    var nombres = ['alt', 'aria-label', 'title'];
-    var elementos = document.querySelectorAll('[alt], [aria-label], [title]');
+    var nombres = ['alt', 'aria-label', 'title', 'placeholder'];
+    var elementos = document.querySelectorAll('[alt], [aria-label], [title], [placeholder]');
     Array.prototype.forEach.call(elementos, function (el) {
       if (el.id === 'btn-tema' || el.id === 'btn-idioma') return;
       nombres.forEach(function (attr) {
