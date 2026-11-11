@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | Brandon Estiben</title>
+    <meta
+      name="description"
+      content="Página de contacto de Brandon Estiben Ixén Teleguario."
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contacto.css" />
+    <link rel="stylesheet" href="../css/tema.css" />
+    <script src="../js/tema.js"></script>
+    <script src="../js/traducciones.js"></script>
+    <script src="../js/idioma.js"></script>
+    <script src="../js/contacto.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a href="index.html" class="logo">BE</a>
+      <nav class="menu" aria-label="Navegación principal">
+        <a href="index.html" class="item">Inicio</a>
+        <a href="sobre_mi.html" class="item">Sobre mí</a>
+        <a href="educacion.html" class="item">Educación</a>
+        <a href="proyectos.html" class="item">Proyectos</a>
+        <a href="habilidades.html" class="item">Habilidades</a>
+        <a href="fuera_de_codigo.html" class="item">Fuera del código</a>
+        <a href="contacto.html" class="item active" aria-current="page">Contacto</a>
+      </nav>
+    </header>
+
+    <main class="contact-page">
+      <section class="contact-intro">
+        <p class="eyebrow">Hablemos</p>
+        <h1>Construyamos algo bueno juntos.</h1>
+        <p>
+          ¿Tienes una idea, una propuesta o simplemente quieres saludar? Elige el canal que prefieras.
+        </p>
+      </section>
+
+      <div class="contact-grid">
+        <section class="contact-panel contact-details" aria-labelledby="contact-details-title">
+          <div>
+            <h2 id="contact-details-title">Encuéntrame aquí</h2>
+            <p class="contact-panel__lead">Estas son las formas de ponerte en contacto conmigo.</p>
+          </div>
+
+          <div class="contact-links">
+            <a class="contact-link" href="mailto:ixenbrandonestiben@gmail.com">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <rect x="3.5" y="5.5" width="17" height="13" rx="2" />
+                  <path d="m4.5 7 7.5 6 7.5-6" />
+                </svg>
+              </span>
+              <span class="contact-link__text">
+                <strong>Correo electrónico</strong>
+                <span>ixenbrandonestiben@gmail.com</span>
+              </span>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a class="contact-link" href="tel:+50246478706">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M7.2 3.8h3l1.4 4-2 1.6a15 15 0 0 0 5 5l1.6-2 4 1.4v3c0 1-.8 1.8-1.8 1.8A15.5 15.5 0 0 1 5.4 5.6c0-1 .8-1.8 1.8-1.8Z" />
+                </svg>
+              </span>
+              <span class="contact-link__text">
+                <strong>Teléfono</strong>
+                <span>+502 4647-8706</span>
+              </span>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <div class="contact-link contact-location">
+              <span class="contact-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none">
+                  <path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z" />
+                  <circle cx="12" cy="10" r="2.2" />
+                </svg>
+              </span>
+              <span class="contact-link__text">
+                <strong>Ubicación</strong>
+                <span>Villa de los Niños, zona 6, Ciudad de Guatemala</span>
+              </span>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact-panel contact-message" aria-labelledby="contact-message-title">
+          <div>
+            <h2 id="contact-message-title">Envíame un mensaje</h2>
+            <p class="contact-panel__lead">
+              Escribe tu correo y tu mensaje para prepararlo en tu aplicación de correo.
+            </p>
+          </div>
+
+          <form class="contact-form" id="contact-form" data-recipient="ixenbrandonestiben@gmail.com">
+            <div class="contact-field">
+              <label for="sender-email">Tu correo electrónico</label>
+              <input
+                id="sender-email"
+                name="email"
+                type="email"
+                placeholder="tu@correo.com"
+                autocomplete="email"
+                required
+              />
+              <small>Lo incluiré en el mensaje para poder responderte.</small>
+            </div>
+
+            <div class="contact-field">
+              <label for="sender-message">Tu mensaje</label>
+              <textarea
+                id="sender-message"
+                name="message"
+                placeholder="Escribe aquí tu mensaje..."
+                rows="6"
+                required
+              ></textarea>
+            </div>
+
+            <button class="contact-submit" type="submit">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m21 3-7.5 18-3.2-7.3L3 10.5 21 3Z" />
+                <path d="m10.3 13.7 5-5" />
+              </svg>
+              Enviar mensaje
+            </button>
+            <p class="contact-form__note">
+              Se abrirá tu aplicación de correo para que revises y envíes el mensaje.
+            </p>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
